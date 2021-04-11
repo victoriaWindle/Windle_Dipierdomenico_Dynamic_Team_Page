@@ -1,0 +1,30 @@
+#photoGallery{
+    display:flex;
+    flex-flow:row wrap;
+    margin-bottom:10px;
+    padding-bottom: 10px;
+    padding-right:10px;
+    position: relative;
+    margin-top:10px;
+
+}
+
+.galleryBlock{
+    flex:1 0 31%;
+    margin:10px;
+    margin-bottom:0px;
+    margin-right:0px;
+}
+
+.galleryBlock img{
+    max-height: 100%;
+    max-width: 100%;
+}
+
+video {
+    /* override other styles to make responsive */
+    width: 100%    !important;
+    height: auto   !important;
+    position: relative;
+    margin-bottom:10px;
+  }
